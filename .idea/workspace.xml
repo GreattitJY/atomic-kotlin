@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/If6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrueOrFalse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVarIsMutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVarIsMutable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultipleByFour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleByFour.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultipleByThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleByThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiplyByTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplyByTwo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SayHello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SayHello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringPlusNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringPlusNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vars.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vars.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +22,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -46,6 +47,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.AVarIsMutableKt.executor": "Run",
+    "Kotlin.If1Kt.executor": "Run",
+    "Kotlin.If2Kt.executor": "Run",
+    "Kotlin.If3Kt.executor": "Run",
+    "Kotlin.If4Kt.executor": "Run",
+    "Kotlin.If5Kt.executor": "Run",
+    "Kotlin.If6Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.MultipleByFourKt.executor": "Run",
     "Kotlin.MultipleByThreeKt.executor": "Run",
@@ -53,6 +60,7 @@
     "Kotlin.MultiplyByTwoKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
+    "Kotlin.TrueOrFalseKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
     "Kotlin.VarsKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,37 +87,37 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MultipleByFourKt">
-    <configuration name="MultipleByFourKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultipleByFourKt" />
+  <component name="RunManager" selected="Kotlin.OneOrTheOtherKt">
+    <configuration name="If4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="If4Kt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleByThreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultipleByThreeKt" />
+    <configuration name="If5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="If5Kt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyByTwoKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiplyByTwoKt" />
+    <configuration name="If6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="If6Kt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyByTwoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.MultiplyByTwoKt" />
+    <configuration name="OneOrTheOtherKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneOrTheOtherKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SayHelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SayHelloKt" />
+    <configuration name="TrueOrFalseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrueOrFalseKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MultipleByFourKt" />
-        <item itemvalue="Kotlin.MultipleByThreeKt" />
-        <item itemvalue="Kotlin.SayHelloKt" />
-        <item itemvalue="Kotlin.MultiplyByTwoKt (1)" />
-        <item itemvalue="Kotlin.MultiplyByTwoKt" />
+        <item itemvalue="Kotlin.OneOrTheOtherKt" />
+        <item itemvalue="Kotlin.TrueOrFalseKt" />
+        <item itemvalue="Kotlin.If6Kt" />
+        <item itemvalue="Kotlin.If5Kt" />
+        <item itemvalue="Kotlin.If4Kt" />
       </list>
     </recent_temporary>
   </component>
