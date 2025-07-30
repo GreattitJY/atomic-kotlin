@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/If1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/If2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/If3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/If4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/If5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/If6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrueOrFalse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExpressionInTemplate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringConcatenation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringTemplates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TripleQuotes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -47,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.AVarIsMutableKt.executor": "Run",
+    "Kotlin.ExpressionInTemplateKt.executor": "Run",
     "Kotlin.If1Kt.executor": "Run",
     "Kotlin.If2Kt.executor": "Run",
     "Kotlin.If3Kt.executor": "Run",
@@ -58,8 +56,11 @@
     "Kotlin.MultipleByThreeKt.executor": "Run",
     "Kotlin.MultiplyByTwoKt (1).executor": "Run",
     "Kotlin.MultiplyByTwoKt.executor": "Run",
+    "Kotlin.OneOrTheOtherKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
+    "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
+    "Kotlin.StringTemplatesKt.executor": "Run",
     "Kotlin.TrueOrFalseKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
     "Kotlin.VarsKt.executor": "Run",
@@ -87,23 +88,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.OneOrTheOtherKt">
-    <configuration name="If4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="If4Kt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="If5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="If5Kt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="If6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="If6Kt" />
+  <component name="RunManager" selected="Kotlin.TripleQuotesKt">
+    <configuration name="ExpressionInTemplateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpressionInTemplateKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,8 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrueOrFalseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrueOrFalseKt" />
+    <configuration name="StringConcatenationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringConcatenationKt" />
+      <module name="atomic-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTemplatesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringTemplatesKt" />
+      <module name="atomic-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripleQuotesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TripleQuotesKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TripleQuotesKt" />
+        <item itemvalue="Kotlin.ExpressionInTemplateKt" />
+        <item itemvalue="Kotlin.StringConcatenationKt" />
+        <item itemvalue="Kotlin.StringTemplatesKt" />
         <item itemvalue="Kotlin.OneOrTheOtherKt" />
-        <item itemvalue="Kotlin.TrueOrFalseKt" />
-        <item itemvalue="Kotlin.If6Kt" />
-        <item itemvalue="Kotlin.If5Kt" />
-        <item itemvalue="Kotlin.If4Kt" />
       </list>
     </recent_temporary>
   </component>
