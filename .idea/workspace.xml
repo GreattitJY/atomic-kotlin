@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UnitReturnType.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pract/1-class.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/jy/code/code-spitz/atomic-kotlin/src",
-    "project.structure.last.edited": "아티팩트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
