@@ -5,35 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lists/ApparentlyMutableList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/ListUsefulFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/MuListIsList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/MultipleListRefs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/MutableList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/OutOfBounds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/ParameterizedReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/ParameterizedTypes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lists/PlusAssignPuzzle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/atomic-kotlin.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/atomic-kotlin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/MainArgConversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/MainArgs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/SpreadOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/TwoFunctionsWithVarargs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/VarargLikeList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/VarargSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/varargs/VariableArgList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumberTypes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberTypes.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="kotlin.jupyter.empty" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" gradleVersion="8.14" />
   <component name="KotlinScriptingSettings" supportWarning="false" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -65,6 +87,8 @@
     "Kotlin.InferIntKt.executor": "Run",
     "Kotlin.ListUsefulFunctionKt.executor": "Run",
     "Kotlin.ListsKt.executor": "Run",
+    "Kotlin.MainArgConversionKt.executor": "Run",
+    "Kotlin.MainArgsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.ModulsKt.executor": "Run",
     "Kotlin.MuListIsListKt.executor": "Run",
@@ -78,13 +102,19 @@
     "Kotlin.OutOfBoundsKt.executor": "Run",
     "Kotlin.ParameterizedReturnKt.executor": "Run",
     "Kotlin.ParameterizedTypesKt.executor": "Run",
+    "Kotlin.PlusAssignPuzzleKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
+    "Kotlin.SpreadOperatorKt.executor": "Run",
     "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
     "Kotlin.StringTemplatesKt.executor": "Run",
     "Kotlin.TripleQuotesKt.executor": "Run",
     "Kotlin.TrueOrFalseKt.executor": "Run",
+    "Kotlin.TwoFunctionsWithVarargsKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
+    "Kotlin.VarargLikeListKt.executor": "Run",
+    "Kotlin.VarargSumKt.executor": "Run",
+    "Kotlin.VariableArgListKt.executor": "Run",
     "Kotlin.VarsKt.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -92,6 +122,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHELLCHECK.PATH": "/Users/jy/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/jy/code/code-spitz/atomic-kotlin/src",
@@ -117,37 +148,47 @@
       <recent name="Lists" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PlusAssignPuzzleKt">
-    <configuration name="ApparentlyMutableListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.ApparentlyMutableListKt" />
+  <component name="RunManager" selected="Kotlin.MainArgConversionKt">
+    <configuration name="MainArgConversionKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.MainArgConversionKt" />
+      <module name="atomic-kotlin" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainArgsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.MainArgsKt" />
+      <module name="atomic-kotlin" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpreadOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.SpreadOperatorKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MuListIsListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.MuListIsListKt" />
+    <configuration name="TwoFunctionsWithVarargsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.TwoFunctionsWithVarargsKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleListRefsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.MultipleListRefsKt" />
+    <configuration name="VarargLikeListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.VarargLikeListKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.MutableListKt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusAssignPuzzleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lists.PlusAssignPuzzleKt" />
+    <configuration name="VarargSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.VarargSumKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PlusAssignPuzzleKt" />
-        <item itemvalue="Kotlin.ApparentlyMutableListKt" />
-        <item itemvalue="Kotlin.MultipleListRefsKt" />
-        <item itemvalue="Kotlin.MuListIsListKt" />
-        <item itemvalue="Kotlin.MutableListKt" />
+        <item itemvalue="Kotlin.TwoFunctionsWithVarargsKt" />
+        <item itemvalue="Kotlin.MainArgsKt" />
+        <item itemvalue="Kotlin.VarargSumKt" />
+        <item itemvalue="Kotlin.SpreadOperatorKt" />
+        <item itemvalue="Kotlin.VarargLikeListKt" />
       </list>
     </recent_temporary>
   </component>
