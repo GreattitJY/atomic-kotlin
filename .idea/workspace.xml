@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atomic-kotlin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atomic-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/MainArgConversion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/MainArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/SpreadOperator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/TwoFunctionsWithVarargs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/VarargLikeList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/VarargSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/varargs/VariableArgList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sets/RemoveDuplicates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sets/Sets.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberTypes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberTypes.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +86,9 @@
     "Kotlin.ParameterizedReturnKt.executor": "Run",
     "Kotlin.ParameterizedTypesKt.executor": "Run",
     "Kotlin.PlusAssignPuzzleKt.executor": "Run",
+    "Kotlin.RemoveDuplicatesKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
+    "Kotlin.SetsKt.executor": "Run",
     "Kotlin.SpreadOperatorKt.executor": "Run",
     "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
@@ -148,7 +133,7 @@
       <recent name="Lists" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainArgConversionKt">
+  <component name="RunManager" selected="Kotlin.MutableSetKt">
     <configuration name="MainArgConversionKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="varargs.MainArgConversionKt" />
       <module name="atomic-kotlin" />
@@ -166,8 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpreadOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="varargs.SpreadOperatorKt" />
+    <configuration name="MutableSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.MutableSetKt" />
+      <module name="atomic-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.RemoveDuplicatesKt" />
+      <module name="atomic-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.SetsKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,27 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarargLikeListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="varargs.VarargLikeListKt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarargSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="varargs.VarargSumKt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MutableSetKt" />
+        <item itemvalue="Kotlin.RemoveDuplicatesKt" />
+        <item itemvalue="Kotlin.SetsKt" />
         <item itemvalue="Kotlin.TwoFunctionsWithVarargsKt" />
         <item itemvalue="Kotlin.MainArgsKt" />
-        <item itemvalue="Kotlin.VarargSumKt" />
-        <item itemvalue="Kotlin.SpreadOperatorKt" />
-        <item itemvalue="Kotlin.VarargLikeListKt" />
       </list>
     </recent_temporary>
   </component>
