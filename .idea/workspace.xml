@@ -5,82 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atomic-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week1/dmopc157p2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week1/week1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/dmopc14c5p1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/week2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/atomictest/AtomicTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/atomictest/AtomicTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/Moduls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/Moduls.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/MultipleByFour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/MultipleByFour.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/MultipleByThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/MultipleByThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/MultiplyByTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/MultiplyByTwo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/NumberTypes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/NumberTypes.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/OneOrTheOther.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/OneOrTheOther.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basic/SayHello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/basic/SayHello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/boolean/Booleans.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/booleans/Booleans.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/boolean/TrueOrFalse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/booleans/TrueOrFalse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/if/If6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/ifexpressions/If6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/ApparentlyMutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/ApparentlyMutableList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/ListUsefulFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/ListUsefulFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/Lists.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/MuListIsList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/MuListIsList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/MultipleListRefs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/MultipleListRefs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/MutableList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/OutOfBounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/OutOfBounds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/ParameterizedReturn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/ParameterizedReturn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/ParameterizedTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/ParameterizedTypes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/lists/PlusAssignPuzzle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/lists/PlusAssignPuzzle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/LoopingAndRanges.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/loop/LoopingAndRanges.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/MembershipInRange.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/loop/MembershipInRange.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/RepetitionWithWhile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/loop/RepetitionWithWhile.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maps/ContactMap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/maps/ContactMap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maps/GetValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/maps/GetValue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maps/Maps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/maps/Maps.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maps/MutableMaps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/maps/MutableMaps.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/maps/ReadOnlyMaps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/maps/ReadOnlyMaps.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sets/MutableSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/sets/MutableSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sets/RemoveDuplicates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/sets/RemoveDuplicates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sets/Sets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/sets/Sets.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/strings/ExpressionInTemplate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/strings/ExpressionInTemplate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/strings/StringConcatenation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/strings/StringConcatenation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/strings/StringPlusNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/strings/StringPlusNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/strings/StringTemplates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/strings/StringTemplates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/strings/TripleQuotes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/strings/TripleQuotes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/study/week1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week1/week1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/types/InferInt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/types/InferInt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/types/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/types/Types.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/types/UnitReturnType.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/types/UnitReturnType.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/META-INF/main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/MainArgConversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/MainArgConversion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/MainArgs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/MainArgs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/MainArgsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/MainArgsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/SpreadOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/SpreadOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/TwoFunctionsWithVarargs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/TwoFunctionsWithVarargs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/VarargLikeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/VarargLikeList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/VarargSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/VarargSum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/varargs/VariableArgList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/varargs/VariableArgList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/vars/AVarIsMutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/vars/AVarIsMutable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/vars/Vars.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/book/vars/Vars.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/dmopc14c5p1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/dmopc14c5p1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/week2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/week2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +37,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="atomic-kotlin" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="atomic-kotlin" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -157,24 +80,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.atomic-kotlin [:MainKt.main()].executor": "Run",
-    "Gradle.atomic-kotlin [run].executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/jy/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jy/code/code-spitz/atomic-kotlin",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.21839081",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.atomic-kotlin [:MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/jy/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jy/code/code-spitz/atomic-kotlin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21839081&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/weeks/week1" />
@@ -185,7 +110,34 @@
       <recent name="book.ifexpressions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="atomic-kotlin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="atomic-kotlin [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -217,8 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.atomic-kotlin [run]" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.atomic-kotlin [run]" />
+        <item itemvalue="Gradle.atomic-kotlin [build]" />
       </list>
     </recent_temporary>
   </component>
