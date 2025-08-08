@@ -19,6 +19,10 @@ tasks.test { // See 4️⃣
     useJUnitPlatform() // JUnitPlatform for tests. See 5️⃣
 }
 
+kotlin {
+    jvmToolchain(21)
+}
+
 application {
     mainClass.set("MainKt")  // Main.kt 파일의 클래스명
 }

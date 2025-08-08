@@ -1,5 +1,6 @@
-import strings.stringTemplatesExample
+import weeks.week2.week2
 
 fun main() {
-    stringTemplatesExample()
+//    week1()
+    week2()
 }
