@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043dc87b-b755-456d-bab1-9aea6a949497" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maps/ContactMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maps/GetValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maps/Maps.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maps/MutableMaps.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maps/ReadOnlyMaps.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pract/1-class.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVarIsMutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/AVarIsMutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Booleans.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/boolean/Booleans.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExpressionInTemplate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/ExpressionInTemplate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/if/If6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InferInt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/InferInt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopingAndRanges.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/LoopingAndRanges.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MembershipInRange.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/MembershipInRange.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moduls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Moduls.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultipleByFour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/MultipleByFour.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultipleByThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/MultipleByThree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiplyByTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/MultiplyByTwo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumberTypes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/NumberTypes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneOrTheOther.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/OneOrTheOther.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RepetitionWithWhile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/RepetitionWithWhile.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SayHello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/SayHello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringConcatenation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringConcatenation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringPlusNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringPlusNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringTemplates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringTemplates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TripleQuotes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/TripleQuotes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrueOrFalse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/boolean/TrueOrFalse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Types.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitReturnType.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/UnitReturnType.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vars.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/Vars.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +87,7 @@
     "Kotlin 스크립트(베타).scratch.kts.executor": "Run",
     "Kotlin.AVarIsMutableKt.executor": "Run",
     "Kotlin.ApparentlyMutableListKt.executor": "Run",
+    "Kotlin.ContactMapKt.executor": "Run",
     "Kotlin.ExpressionInTemplateKt.executor": "Run",
     "Kotlin.GetValueKt.executor": "Run",
     "Kotlin.If1Kt.executor": "Run",
@@ -135,16 +160,28 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/types" />
+      <recent name="$PROJECT_DIR$/src/boolean" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
-      <recent name="Maps" />
-      <recent name="Lists" />
+      <recent name="types" />
+      <recent name="boolean" />
+      <recent name="basic" />
+      <recent name="string" />
+      <recent name="if" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ContactMapKt">
+  <component name="RunManager" selected="Kotlin.ExpressionInTemplateKt">
     <configuration name="ContactMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maps.ContactMapKt" />
+      <module name="atomic-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionInTemplateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ExpressionInTemplateKt" />
       <module name="atomic-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,13 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.MapsKt" />
-      <module name="atomic-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MutableMapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maps.MutableMapsKt" />
       <module name="atomic-kotlin" />
@@ -189,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExpressionInTemplateKt" />
         <item itemvalue="Kotlin.ContactMapKt" />
         <item itemvalue="Kotlin.GetValueKt" />
         <item itemvalue="Kotlin.ReadOnlyMapsKt" />
         <item itemvalue="Kotlin.MutableMapsKt" />
-        <item itemvalue="Kotlin.MapsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -212,8 +242,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/StringPlusNumber.kt</url>
-          <properties method="main">
+          <url>file://$PROJECT_DIR$/src/strings/StringPlusNumber.kt</url>
+          <properties>
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

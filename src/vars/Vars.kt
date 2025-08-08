@@ -1,3 +1,5 @@
+package vars
+
 fun main() {
     var whole = 11
     whole = 14

@@ -1,3 +1,5 @@
+package basic
+
 fun sayHello(){
     println("Hello")
 }

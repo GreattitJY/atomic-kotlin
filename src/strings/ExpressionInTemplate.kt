@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val condition = true
     println("${if (condition) "a" else "b"}")

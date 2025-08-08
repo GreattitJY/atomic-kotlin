@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val s = "value"
     println("s = \"$s\".")

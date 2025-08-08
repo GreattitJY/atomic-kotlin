@@ -1,3 +1,5 @@
+package boolean
+
 fun main() {
     val b = 1
     println(trueOrFalse2(b<3))

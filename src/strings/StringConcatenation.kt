@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val s = "h1\n"
     val n = 11

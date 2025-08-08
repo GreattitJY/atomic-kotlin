@@ -1,3 +1,5 @@
+package `if`
+
 fun main() {
     val y:Boolean = false
     if (!y)

@@ -1,3 +1,5 @@
+package types
+
 fun main() {
     val whole: Int = 1
     val fractional:Double = 1.4
