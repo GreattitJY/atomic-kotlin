@@ -9,7 +9,7 @@ fun dmopc14c5p1() {
     val h = input.readLine().toDouble()
 
     val volume = PI * r * r * h / 3
-    
+
     output.write("$volume")
     output.flush()
 }
