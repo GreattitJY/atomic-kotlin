@@ -5,5 +5,6 @@ fun week2() {
 //    dmopc14c5p1()
 //    ccc19j1()
 //    ccc18j1()
-    coci06c5p1()
+//    coci06c5p1()
+    ccc18j2()
 }
