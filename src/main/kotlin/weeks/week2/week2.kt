@@ -6,5 +6,6 @@ fun week2() {
 //    ccc19j1()
 //    ccc18j1()
 //    coci06c5p1()
-    ccc18j2()
+//    ccc18j2()
+    coci16c1p1()
 }
