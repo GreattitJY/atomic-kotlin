@@ -19,7 +19,7 @@
 - [x] ccc18j1
 - [x] coci06c5p1
 - [x] ccc18j2
-- [ ] coci16c1p1
+- [x] coci16c1p1
 - [ ] ccc00s1
 - [ ] ccc08j2(Do the Shuffle)
 
