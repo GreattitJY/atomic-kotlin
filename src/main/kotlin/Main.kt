@@ -1,7 +1,14 @@
-import book.lambdas.basicLambda
+import book.lambdas.zeroArguments
 
 fun main() {
 //    week1()
 //    week2()
-    basicLambda()
+//    basicLambda()
+//    Lambda()
+//    mapping()
+//    joinToString()
+//    lambdaAndNamedArgs()
+//    twoArgLambda()
+//    underscore()
+    zeroArguments()
 }

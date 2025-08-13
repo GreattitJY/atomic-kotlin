@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="">
+    <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="chore: 파일명 수정">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/JoinToString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Lambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/LambdaAndNamedArgs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/ListIndicesMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Mapping.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/TwoArgLambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Underscore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/ZeroArguments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -32,11 +41,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="atomic-kotlin" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="atomic-kotlin" type="f1a62948:ProjectNode" />
-                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,10 +65,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/gradlew" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc00s1.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc08j2.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc18j2.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/coci16c1p1.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/JoinToString.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Lambda.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/LambdaAndNamedArgs.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/ListIndicesMap.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Mapping.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/TwoArgLambda.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Underscore.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC00S1.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI16C1P1.kt" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -84,30 +95,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Gradle 종속성 로드.executor": "Run",
-    "Gradle.atomic-kotlin [:MainKt.main()].executor": "Run",
-    "Gradle.atomic-kotlin [build].executor": "Run",
-    "Gradle.atomic-kotlin [clean].executor": "Run",
-    "Gradle.atomic-kotlin [init].executor": "Run",
-    "Gradle.atomic-kotlin [run].executor": "Run",
-    "Gradle.atomic-kotlin 빌드.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/jy/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jy/code/code-spitz/atomic-kotlin",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.21839081",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Gradle 종속성 로드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [:MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.atomic-kotlin 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/jy/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jy/code/code-spitz/atomic-kotlin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21839081&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/weeks/week1" />
@@ -229,10 +242,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.atomic-kotlin [build]" />
-        <item itemvalue="Gradle.atomic-kotlin [clean]" />
-        <item itemvalue="Gradle.atomic-kotlin [init]" />
         <item itemvalue="Gradle.atomic-kotlin [run]" />
+        <item itemvalue="Gradle.atomic-kotlin [init]" />
+        <item itemvalue="Gradle.atomic-kotlin [clean]" />
+        <item itemvalue="Gradle.atomic-kotlin [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +258,30 @@
       <option name="presentableId" value="Default" />
       <updated>1754628527749</updated>
     </task>
+    <task id="LOCAL-00001" summary="chore: 파일명 수정">
+      <option name="closed" value="true" />
+      <created>1755066863243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755066863243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: 파일명 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 파일명 수정" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/build.gradle.kts</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
