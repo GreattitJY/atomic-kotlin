@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="chore: 파일명 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/JoinToString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Lambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/LambdaAndNamedArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/ListIndicesMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Mapping.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/TwoArgLambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/Underscore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/ZeroArguments.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/Closures.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/Filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/SortingLambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/Sum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -64,6 +58,8 @@
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" gradleVersion="8.14" />
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/gradlew" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/Filter.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/importanceOfLambdas/Sum.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/JoinToString.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Lambda.kt" root0="SKIP_HIGHLIGHTING" />
@@ -72,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Mapping.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/TwoArgLambda.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/Underscore.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/ZeroArguments.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC00S1.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J2.kt" root0="SKIP_HIGHLIGHTING" />

@@ -1,4 +1,4 @@
-import book.lambdas.zeroArguments
+import book.importanceOfLambdas.sum
 
 fun main() {
 //    week1()
@@ -10,5 +10,9 @@ fun main() {
 //    lambdaAndNamedArgs()
 //    twoArgLambda()
 //    underscore()
-    zeroArguments()
+//    zeroArguments()
+//    filter()
+//    sortingLambda()
+//    closures()
+    sum()
 }
