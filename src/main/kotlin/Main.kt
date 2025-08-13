@@ -1,6 +1,7 @@
-import weeks.week2.week2
+import book.lambdas.basicLambda
 
 fun main() {
 //    week1()
-    week2()
+//    week2()
+    basicLambda()
 }

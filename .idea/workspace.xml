@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc08j2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/week2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/week2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +60,9 @@
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14-bin/38aieal9i53h9rfe7vjup95b9/gradle-8.14" javaHome="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" gradleVersion="8.14" />
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/gradlew" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/lambdas/BasicLambda.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc00s1.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc08j2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc08j2.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/ccc18j2.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/coci16c1p1.kt" root0="SKIP_HIGHLIGHTING" />
   </component>
