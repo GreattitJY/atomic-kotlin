@@ -1,4 +1,4 @@
-import book.importanceOfLambdas.sum
+import book.importanceoflambdas.sum
 
 fun main() {
 //    week1()

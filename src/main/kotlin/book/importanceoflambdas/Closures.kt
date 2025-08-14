@@ -1,4 +1,4 @@
-package book.importanceOfLambdas
+package book.importanceoflambdas
 
 import book.atomictest.eq
 
