@@ -1,4 +1,4 @@
-import book.importanceoflambdas.sum
+import book.operationsoncollections.setOpertations
 
 fun main() {
 //    week1()
@@ -14,5 +14,14 @@ fun main() {
 //    filter()
 //    sortingLambda()
 //    closures()
-    sum()
+//    sum()
+//    creatingLists()
+//    listInit()
+//    predicates()
+//    partition()
+//    pairOfList()
+//    filterNotNull()
+//    byOpereations()
+//    takeOrDrop()
+    setOpertations()
 }
