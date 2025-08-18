@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="chore: 파일명 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/ByOpereations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/CreatingLists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/FilterNotNull.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/ListInit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/PairOfList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/Partition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/Predicates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/SetOpertations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/TakeOrDrop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC00S1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC00S1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC19J1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC19J1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI06C5P1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI06C5P1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI16C1P1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI16C1P1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/DMOPC14C5P1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week2/DMOPC14C5P1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +89,13 @@
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/SetOpertations.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/book/operationsoncollections/TakeOrDrop.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC00S1.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC08J2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J1.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC18J2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/CCC19J1.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI06C5P1.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/COCI16C1P1.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week2/DMOPC14C5P1.kt" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />

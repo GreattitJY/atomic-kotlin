@@ -1,15 +1,20 @@
 package weeks.week2
 
-import kotlin.math.PI
-
 fun dmopc14c5p1() {
     val input = System.`in`.bufferedReader()
     val output = System.out.bufferedWriter()
-    val r = input.readLine().toDouble()
-    val h = input.readLine().toDouble()
 
-    val volume = PI * r * r * h / 3
+    val n0 = input.readLine()
+    val r = n0.toIntOrNull() ?: throw Throwable("invalid int n0: $n0")
+    if (r !in 1..100) throw Throwable("out of range 0..100 r: $r")
+    
+    val n1 = input.readLine()
+    val h = n1.toIntOrNull() ?: throw Throwable("invalid int n1: $n1")
+    if (h !in 1..100) throw Throwable("out of range 0..100 h:$h")
 
-    output.write("$volume")
+    val core = Math.PI * r * r * h / 3
+
+    output.write("$core")
+
     output.flush()
 }
