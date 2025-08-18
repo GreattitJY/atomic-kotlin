@@ -23,7 +23,8 @@ fun ecoo17r1p1() {
         if (yStrings.isNullOrBlank()) throw Throwable("isNullOrBlank Text")
         val yList = yStrings.split(" ").map { it.toDoubleOrNull() ?: throw Throwable("invalid $it") }
         if (yList.size != 4) throw Throwable("invalid size yList: ${yList.size}")
-        if (yList.sum() != 1.0 || yList.any { it < 0 || it > 1 })
+        val e = Math.ulp(1.0)
+        if (Math.abs(yList.sum() - 1.0) > e || yList.any { it < 0 || it > 1 })
             throw Throwable("yList values are out of range 0..1 and sum is not 1")
         val maxY = yList.max()
         if (yList.count { it == maxY } != 1)
