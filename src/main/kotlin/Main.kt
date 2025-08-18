@@ -1,4 +1,4 @@
-import book.operationsoncollections.setOpertations
+import weeks.week3.week3
 
 fun main() {
 //    week1()
@@ -23,5 +23,6 @@ fun main() {
 //    filterNotNull()
 //    byOpereations()
 //    takeOrDrop()
-    setOpertations()
+//    setOpertations()
+    week3()
 }
