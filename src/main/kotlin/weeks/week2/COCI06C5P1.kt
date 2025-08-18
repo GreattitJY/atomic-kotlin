@@ -19,19 +19,19 @@ fun coci06c5p1() {
 
     for (c in n) {
         when (c) {
-            A -> {
+            'A' -> {
                 val tmp = pos0
                 pos0 = pos1
                 pos1 = tmp
             }
 
-            B -> {
+            'B' -> {
                 val tmp = pos1
                 pos1 = pos2
                 pos2 = tmp
             }
 
-            C -> {
+            'C' -> {
                 val tmp = pos0
                 pos0 = pos2
                 pos2 = tmp
@@ -45,7 +45,7 @@ fun coci06c5p1() {
         pos2 == 1 -> "3"
         else -> throw Throwable("fulfill partion")
     }
-    
+
     output.write("$result")
     output.flush()
 }

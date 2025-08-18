@@ -13,7 +13,7 @@ fun coci16c1p1() {
     var availabeldData = X
     var i = 1
     while (i in 1..N) {
-        val P = input.readLine().toIntOrNull() ?: throw Throwable("invalid int p")
+        val p = input.readLine().toIntOrNull() ?: throw Throwable("invalid int p")
         if (p !in 0..10000) throw Throwable("out of range 0..10000 p: ${p}")
         availabeldData -= p
         if (availabeldData < 0) throw Throwable("availableData < 0")
