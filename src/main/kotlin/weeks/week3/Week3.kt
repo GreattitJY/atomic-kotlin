@@ -7,5 +7,6 @@ fun week3() {
 //    ecoo19r2p1()
 //    cco99p2()
 //    coci15c2p1()
-    crci06p1()
+//    crci06p1()
+    coci17c2p2()
 }

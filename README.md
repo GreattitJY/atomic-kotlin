@@ -34,7 +34,7 @@
 - [x] ecoo19r2p1
 - [x] cco99p2
 - [x] coci15c2p1
-- [ ] crci06p1
+- [x] crci06p1
 - [ ] coci17c2p2
 
 ---
