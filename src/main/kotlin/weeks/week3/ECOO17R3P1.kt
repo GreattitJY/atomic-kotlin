@@ -1,69 +1,80 @@
 package weeks.week3
 
+import java.io.BufferedReader
+
+// 도메인이 아닌 경우 연산의 이름
+fun inputInt(v: String, range: IntRange): Int {
+    val result = v.toIntOrNull() ?: throw Throwable("invalid int X")
+    if (result !in range) throw Throwable("out of $range: $result")
+    return result
+}
+
+// 함수의 이름은 어떤 상태들의 라이플 사이클의 이름이다. (도메인에서는 연산의 이림이 아니라 격리되어 있는 상태들의 이름이다.)
+// 각 데이터셋별로 보너스를 개선하여 반환한다.
+fun calcBonus(input: BufferedReader): Int {
+    val split = input.readLine().split(" ")
+    if (split.size != 2) throw IllegalAccessError("invalid rate.size: ${split.size}")
+
+    val F = inputInt(split[0], 4..130)
+//        주석은 필수. 왜 4745인가? 2025-08-27 15:30 3차 도메인 회의 시 팀장 결정
+    val D = inputInt(split[1], 2..4745)
+    val sales = mutableListOf<Int>()
+    for (k in 0..<F) {
+        sales.add(0)
+    }
+    var bonus = 0
+    var j = 0
+    while (j < D) {
+        val s = input.readLine().split(" ")
+        if (s.size != F) throw IllegalAccessError("invalid split.size: ${s.size}")
+        var sum = 0
+        for (k in 0..<F) {
+            val v = s[k]
+//                주석 예시: 역사상 어떤 점포도 하루에 11000개 이상 판 적이 없다고 함
+//                김pm이 자기가 결정했다고 확인했음. ~가 물어봄 2025-08-15 15:00
+            val num = inputInt(v, 1..13000)
+            sales[k] += num
+            sum += num
+        }
+        if (sum % 13 == 0) bonus++
+        j++
+    }
+
+    for (v in sales) {
+        if (v % 13 == 0) {
+            bonus += v / 13
+        }
+    }
+    return bunus
+}
+
+fun inputAlphaLower(v: String): String {
+    var i = 0
+    while (i < v.length) {
+        if (v[i] !in 'a'..'z') throw Throwable("invalid char lower alpha: ${v[i]}")
+        i++
+    }
+    return v
+}
+
 fun ecoo17r3p1() {
     val input = System.`in`.bufferedReader()
-    val output = System.out.bufferedWriter()
-
     val DATASETS = 10
-    val DOZENS = 13
-    var result = ""
+    val bonuses = mutableListOf<Int>()
 
-    var i = 1
-    while (i in 1..DATASETS) {
-        var count = 0;
-//        첫번째 입력 검증 - "F(franchise count) D(days count)"
-        val n0 = input.readLine()
-        if (n0.isNullOrBlank()) throw Throwable("isNullOrBlank Text n0")
-        val dataset = n0.split(" ").map { it.toIntOrNull() ?: throw Throwable("invalid n0") }
-        if (dataset.size != 2) throw Throwable("invalid dataset size ${dataset.size}")
-        val (F, D) = dataset
-        if (F < 4 || F > 130 || D < 2 || D > 4745) throw Throwable("out of range F(4..130): $F, D(2..4745): $D")
-//        첫번째 입력 검증 끝
-
-        val individualSellMap = mutableMapOf<Int, Int>()
-        var d = 1
-        while (d in 1..D) {
-            val fStrings = input.readLine()
-//            두번째 입력 검증 시작
-//            F(열) 1.올바른 문자 형식인지 검증 "$number $number", 2.문자열 변환 후 사이즈 검증
-            if (fStrings.isNullOrBlank()) throw Throwable("isNullOrBlank fStrings")
-            val fList = fStrings.split(" ").map { it.toIntOrNull() ?: throw Throwable("invalid fStrings $it") }
-            if (fList.size != F) throw Throwable("invalid size fList: $fList")
-
-//            F(franchise) 각 열 검증 - 범위 검사
-            var f = 0
-            while (f in 0..<F) {
-                if (fList[f] < 1 || fList[f] > 13_000) throw Throwable("out of range 1..13_000 fList[$f]: ${fList[f]}")
-                f++
-            }
-//            두번째 입력 검증 끝
-
-//           프랜차이즈 요구 사항 시작 - signle day와 individaul을 기준으로 DOZENS 배수일 경우 카운트 업
-//            F(franchise) 요구 사항 1 - single day (결합된 프랜차이즈의 모든 판매를 더해서 DOZENS으로 나눠서 카운트)
-            var singleDaySell = 0
-            for (i in 0..<F) {
-                singleDaySell += fList[i]
-            }
-            if (singleDaySell % DOZENS == 0) count += singleDaySell / DOZENS
-
-
-//            F(franchise) 요구 사항 2 - 개별 프렌차이즈의 요일별 판매를 map에 넣기 (추후 계산하기 위함)
-            for (i in 0..<F) {
-                individualSellMap[i] = individualSellMap.getOrDefault(i, 0) + fList[i]
-            }
-            d++
-        }
-
-//        F(franchise) 요구 사항 2 - 개별 프랜차이즈의 당일 판매를 DOZENS로 나눠서 카운트
-        for (i in 0..<F) {
-            val individualSell = individualSellMap.getOrDefault(i, 0)
-            if (individualSell % DOZENS == 0) count += individualSell / DOZENS
-        }
-//       프랜차이즈 요구 사항 끝
-        result += "$count\n"
+    var i = 0
+    while (i < DATASETS) {
+        bonuses.add(calcBonus(input))
         i++
     }
 
-    output.write(result)
-    output.flush()
+    for (o in bonuses) {
+        println(o)
+    }
+
 }
+
+// lifecycle        - 상태(변수, 상수)의 생존주기, 활성화 기간 (그 상태가 유의미한 기간)
+// scope-permission - 상태를 보거나 수정할 수 있는 권한
+
+// 개발자 주 임무는 제어를 통제하는 게 아니라, 제어를 통해서 상태를 관리할 때 각 상태를 라이플사이클과 스코프에 맞게 배정해주고 관리해주는 게 어렵다.

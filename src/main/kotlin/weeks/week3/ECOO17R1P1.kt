@@ -1,66 +1,48 @@
 package weeks.week3
 
+import java.util.*
+
 fun ecoo17r1p1() {
     val input = System.`in`.bufferedReader()
-    val output = System.out.bufferedWriter()
-
     val TRIPS = 10
-    val Y1 = 12
-    val Y2 = 10
-    val Y3 = 7
-    val Y4 = 5
+    val e = 2.220446049250313e-15
+    val prices = listOf(12, 10, 7, 5)
 
-    var result = ""
+    val output = mutableListOf<Boolean>()
+    var i = 0
+    while (i < TRIPS) {
+        val cost = input.readLine().toIntOrNull() ?: throw IllegalArgumentException("invalid int coast")
+        if (cost !in 50..50000) throw IllegalStateException("out of range 50..50000 cost: $cost")
 
-    var i = 1
-    while (i in 1..TRIPS) {
-//        첫번째 입력: 비용 검증
-        val cost = input.readLine().toIntOrNull() ?: throw Throwable("invalid cost")
-        if (cost !in 50..50_000) throw Throwable("out of range 50..50_000 cost: $cost")
-
-//        두번째 입력: 학생 비율 검증
-        val yStrings = input.readLine()
-        if (yStrings.isNullOrBlank()) throw Throwable("isNullOrBlank Text")
-        val yList = yStrings.split(" ").map { it.toDoubleOrNull() ?: throw Throwable("invalid $it") }
-        if (yList.size != 4) throw Throwable("invalid size yList: ${yList.size}")
-        val e = Math.ulp(1.0)
-        if (Math.abs(yList.sum() - 1.0) > e || yList.any { it < 0 || it > 1 })
-            throw Throwable("yList values are out of range 0..1 and sum is not 1")
-        val maxY = yList.max()
-        if (yList.count { it == maxY } != 1)
-            throw Throwable("There will always be exactly one group with the highest percentage of attendees.")
-
-//        세번째 입력: 학생 수 검증
-        val students = input.readLine().toIntOrNull() ?: throw Throwable("invalid students")
-        if (students < 4 || students > 2000) throw Throwable("out of range 4..2000 students: $students")
-
-//        학생 수 조정
-        val maxYIndex = yList.indexOf(maxY)
-        val addPeople = students - yList.sumOf { (it * students).toInt() }
-        val yStudents = mutableListOf<Int>()
-        for (i in yList.indices) {
-            if (maxYIndex == i) {
-                yStudents.add((yList[i] * students).toInt() + addPeople)
-            } else {
-                yStudents.add((yList[i] * students).toInt())
-            }
+        val split = input.readLine().split(" ")
+        if (split.size != 4) throw IllegalAccessError("invalid rate.size: ${split.size}")
+        val rate = mutableListOf<Double>()
+        var j = 0
+        while (j < split.size) {
+            val r = split[j].toDoubleOrNull() ?: throw IllegalMonitorStateException("invalid double split: ${split[j]}")
+            if (r !in 0.0..1.0) throw Throwable("out of range 0.1..<1.0 rate: $r")
+            rate.add(r)
+            j++
         }
 
-//       비용 계산
-        var proceeds = 0
-        for (i in yStudents.indices) {
-            when (i) {
-                0 -> proceeds += Y1 * yStudents[i]
-                1 -> proceeds += Y2 * yStudents[i]
-                2 -> proceeds += Y3 * yStudents[i]
-                3 -> proceeds += Y4 * yStudents[i]
-            }
+        if (abs(rate.sum - 1.0) > e) throw IllformedLocaleException("sum of rate is not 1.0, rate: ${rate.joinToString(",")}}")
+        val N = input.readLine().toIntOrNull() ?: throw Exception("invalid N")
+        if (N !in 4..2000) throw Error("out of range 4..2000: $N")
+        val student = mutableListOf<Int>()
+        for (k in rate) {
+            student.add((k * N).toInt())
         }
-
-        result += if (cost > (proceeds / 2)) "YES\n" else "NO\n"
+        val delta = N - student.sum()
+        if (delta > 0) student[student.indexOf(student.max())] += delta
+        var sum = 0
+        for (l in 0..student.lastIndex) {
+            sum += student[l] * prices[l]
+        }
+        output.add(sum < cost * 2)
         i++
     }
 
-    output.write(result)
-    output.flush()
+    for (o in output) {
+        println(if (o) "YES" else "NO")
+    }
 }
