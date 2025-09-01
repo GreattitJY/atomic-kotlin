@@ -45,7 +45,7 @@ fun calcBonus(input: BufferedReader): Int {
             bonus += v / 13
         }
     }
-    return bunus
+    return bonus
 }
 
 fun inputAlphaLower(v: String): String {

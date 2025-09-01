@@ -1,6 +1,7 @@
 package weeks.week3
 
 import java.util.*
+import kotlin.math.abs
 
 fun ecoo17r1p1() {
     val input = System.`in`.bufferedReader()
@@ -25,7 +26,13 @@ fun ecoo17r1p1() {
             j++
         }
 
-        if (abs(rate.sum - 1.0) > e) throw IllformedLocaleException("sum of rate is not 1.0, rate: ${rate.joinToString(",")}}")
+        if (abs(rate.sum() - 1.0) > e) throw IllformedLocaleException(
+            "sum of rate is not 1.0, rate: ${
+                rate.joinToString(
+                    ","
+                )
+            }}"
+        )
         val N = input.readLine().toIntOrNull() ?: throw Exception("invalid N")
         if (N !in 4..2000) throw Error("out of range 4..2000: $N")
         val student = mutableListOf<Int>()

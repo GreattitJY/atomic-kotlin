@@ -1,4 +1,4 @@
-import weeks.week3.week3
+import weeks.week4.week4
 
 fun main() {
 //    week1()
@@ -24,5 +24,6 @@ fun main() {
 //    byOpereations()
 //    takeOrDrop()
 //    setOpertations()
-    week3()
+//    week3()
+    week4()
 }

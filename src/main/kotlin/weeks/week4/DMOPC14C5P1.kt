@@ -1,6 +1,6 @@
 package weeks.week4
 
-fun inputInt(v: String, range: IntRange): Int {
+private fun inputInt(v: String, range: IntRange): Int {
     val result = v.toIntOrNull() ?: throw Throwable("invalid int")
     if (result !in range) throw Throwable("out of $range: $result")
     return result
@@ -16,3 +16,4 @@ fun dmopc14c5p1() {
 
     println(core)
 }
+

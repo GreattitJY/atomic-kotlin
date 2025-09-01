@@ -1,7 +1,10 @@
 package weeks.week3
 
+import kotlin.math.abs
+
 fun ccc18s1() {
     val input = System.`in`.bufferedReader()
+    val output = System.out.bufferedWriter()
 
     val N = input.readLine().toIntOrNull() ?: throw Throwable("invalid int N")
     if (N !in 3..100) throw Throwable("out of range 3..100 B: N: $N")
