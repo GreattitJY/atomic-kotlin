@@ -22,23 +22,19 @@ Output either "ignore" if the number matches the pattern for a telemarketer numb
 
  */
 
-private fun inputInt(v: String, range: IntRange): Int {
-    val result = v.toIntOrNull() ?: throw Throwable("invalid int X")
-    if (result !in range) throw Throwable("out of $range: $result")
-    return result
+private fun inputDigitString(v: String, range: IntRange): String {
+    if (v.length != 1 && v !in "0123456789") throw IllegalArgumentException("invalid char: $v")
+    return v
 }
 
 
 fun ccc18j1() {
     val input = System.`in`.bufferedReader()
-    val LINES = 4
 
-    var i = 0
-    while (i < LINES) {
-        val n = input.readLine().let { inputInt(it, 0..9) }
+    val n1 = input.readLine().let { inputDigitString(it, 0..9) }
+    val n2 = input.readLine().let { inputDigitString(it, 0..9) }
+    val n3 = input.readLine().let { inputDigitString(it, 0..9) }
+    val n4 = input.readLine().let { inputDigitString(it, 0..9) }
 
-        i++
-    }
-
-
+    println(if (n1 in "89" && n4 in "89" && n2 == n3) "ignore" else "answer")
 }
