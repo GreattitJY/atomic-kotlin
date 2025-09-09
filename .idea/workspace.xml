@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="add: week3 cco99p2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/week5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/week5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/week5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -118,7 +117,8 @@
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week4/COCI06C5P1.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week4/DMOPC14C5P1.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week4/ECOO19R2P1.kt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC08J2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J2.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J3.kt" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
