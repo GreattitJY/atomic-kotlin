@@ -34,7 +34,7 @@ fun lambda() {
 //    suspend {
 //        member.name()
 //    }
-
+    
     val list = listOf('a', 'b', 'c', 'X', 'Z')
     println(list.takeLast(3) eq "[c, X, Z]")
     println(list.takeLastWhile { it.isUpperCase() } eq "[X, Z]")
