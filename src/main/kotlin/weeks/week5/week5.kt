@@ -5,6 +5,7 @@ fun week5() {
 //    ccchk08j3()
 //    lambda()
 //    ccc20j2()
-    ccc20j3()
+//    ccc20j3()
+    ccc20s3()
 }
 
