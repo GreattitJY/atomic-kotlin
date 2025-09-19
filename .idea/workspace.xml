@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="add: week3 cco99p2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC20S3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21J3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/week6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/week5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week5/week5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +121,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC20J2.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC20J3.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC20S3.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCC21J3.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J2.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/CCCHK08J3.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/lambda.kt" root0="SKIP_HIGHLIGHTING" />
@@ -177,6 +179,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/book" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="weeks.week6" />
       <recent name="weeks.week4" />
       <recent name="book.booleans" />
       <recent name="book.ifexpressions" />

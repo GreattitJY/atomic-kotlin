@@ -1,4 +1,4 @@
-import weeks.week5.week5
+import weeks.week6.week6
 
 fun main() {
 //    week1()
@@ -26,5 +26,6 @@ fun main() {
 //    setOpertations()
 //    week3()
 //    week4()
-    week5()
+//    week5()
+    week6()
 }
