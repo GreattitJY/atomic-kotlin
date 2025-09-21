@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08385328-95f1-4caf-89a6-94d0c7816563" name="변경" comment="add: week3 cco99p2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21J2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21S2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/week6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/weeks/week6/week6.kt" afterDir="false" />
     </list>
@@ -125,6 +125,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week5/lambda.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21J2.kt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21J3.kt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/weeks/week6/CCC21S2.kt" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
