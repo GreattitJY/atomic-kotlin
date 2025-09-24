@@ -96,10 +96,24 @@ fun ccc22s2() {
         i++
     }
 
+//    G에 X 이름이 있는지 유효성 검사
+    i = 0
+    while (i < sameGroup.size) {
+        if (!groups.containsKey(sameGroup[i].person1) || !groups.containsKey(sameGroup[i].person2))
+            throw IllegalArgumentException("G에 X의 학생이 없습니다.")
+        i++
+    }
+
+//    G에 Y의 이름이 있는지 유효성 검사
+    i = 0
+    while (i < diffGroup.size) {
+        if (!groups.containsKey(diffGroup[i].person1) || !groups.containsKey(diffGroup[i].person2))
+            throw IllegalArgumentException("G에 Y의 학생이 없습니다.")
+        i++
+    }
 
     val sameGroupViolations = sameGroup.count { pair -> groups[pair.person1] != groups[pair.person2] }
     val diffGroupViolations = diffGroup.count { pair -> groups[pair.person1] == groups[pair.person2] }
-
 
     println(sameGroupViolations + diffGroupViolations)
 }
