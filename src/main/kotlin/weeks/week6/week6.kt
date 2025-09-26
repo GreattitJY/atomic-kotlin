@@ -8,5 +8,6 @@ fun week6() {
 //    ccc22j3()
 //    ccc22s2()
 //    ccc23j2()
-    ccc23j3()
+//    ccc23j3()
+    ccc24j3()
 }
